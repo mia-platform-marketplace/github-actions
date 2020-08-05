@@ -44,6 +44,6 @@ jobs:
         with:
           username: ${{ secrets.BOT_DOCKER_USERNAME }}
           password: ${{ secrets.BOT_DOCKER_TOKEN }}
-          repository: moolidoo/service-github-actions
+          repository: mia_template_image_name_placeholder
           tag_with_ref: true
           push: ${{ startsWith(github.ref, 'refs/tags/') || github.ref == 'refs/heads/master' }}
